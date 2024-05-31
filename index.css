@@ -1,0 +1,140 @@
+body {
+     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+     background: #BFEEA8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    background: url(Banner.jpg)no-repeat;
+    background-size: cover;
+     background-position: center;
+      background-size: contain;
+    height: 467px;
+    color: #22D353;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+section {
+    padding: 20px;
+}
+
+.resaltado {
+    background-color: green; /* Cambia el color de fondo según tu preferencia */
+    color: black; /* Cambia el color del texto según tu preferencia */
+    padding: 5px; /* Agrega un poco de espacio alrededor del texto */
+    border-radius: 15px; /* Agrega bordes redondeados */
+}
+.logo {
+    color:#303030;
+    font-size: 25px;
+    font-weight:800;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container  div {
+    flex: 1;
+    padding: 10px;
+}
+
+.product, .offer {
+    text-align: center;
+    margin: 10px;
+}
+
+.product img, .offer img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product {
+    transition: transform 0.3s ease; /* Transición de 0.3 segundos en transform */
+}
+
+.product:hover {
+    transform: scale(1.1); /* Escala el producto al 110% del tamaño original cuando pasa el cursor */
+}
+
+.offer{
+      transition: transform 0.3s ease;
+}
+
+.offer:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    border-radius: 0 0 20px 20px;
+}
+
+.slider {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.slider img {
+    width: 100%;
+    display: block;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+}
+
+.form-container input, .form-container textarea {
+    margin: 5px 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-container button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #45a049;
+}
+
+.forma{
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    border-style: outset;
+}
